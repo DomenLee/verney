@@ -18,7 +18,7 @@ class App extends Component {
         }
     }
     getChildContext() {
-        // material ui 主题 设置为 baseTheme
+        // material ui 主题 设置为 baseTheme!
         return {muiTheme: getMuiTheme(baseTheme)};
     }
     render() {
