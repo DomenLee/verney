@@ -20,11 +20,6 @@ class App extends Component {
     getChildContext() {
         return {muiTheme: getMuiTheme(baseTheme)};
     }
-    navTap = () => {
-        this.setState({
-            title: 'hello'
-        })
-    }
     render() {
         return (
             <div className="App">
