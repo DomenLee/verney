@@ -3,9 +3,9 @@
  */
 import React, {Component} from 'react';
 import { Router, Route , browserHistory } from 'react-router/umd/ReactRouter.min'
-import Home from './Home'
-import Browse from './Browse'
-import Setting from './Setting'
+import Home from './pages/Home'
+import Browse from './pages/Browse'
+import Setting from './pages/Setting'
 
 class Routers extends Component {
     render() {
