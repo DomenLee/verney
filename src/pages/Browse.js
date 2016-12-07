@@ -3,11 +3,14 @@
  */
 
 import React, {Component} from 'react'
+import Search from '../modules/search'
 
 class Browse extends Component {
     render() {
         return (
-            <div> this is Browse. </div>
+            <div>
+                <Search></Search>
+            </div>
         )
     }
 }
